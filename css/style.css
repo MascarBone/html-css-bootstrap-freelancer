@@ -36,6 +36,13 @@ ul{
 .fa-star {
     font-size: 2rem;
 }
+.fab {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
 .button {
     padding: 5px 20px;
     border: 1px solid white;

@@ -1,6 +1,9 @@
 ul{
     list-style:none;
 }
+h1,h2,h3 {
+    text-transform: uppercase;
+}
 .bg-white {
     background-color: white;
 }
@@ -58,5 +61,4 @@ ul{
 .show-card img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
 }

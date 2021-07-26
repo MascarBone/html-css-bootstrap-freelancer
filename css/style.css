@@ -13,6 +13,10 @@ ul{
     background-color: rgb(44, 62, 80);
 }
 
+.text-acquagreen {
+    color: rgb(26, 188, 156);
+}
+
 .star__line {
     vertical-align: middle;
     display: inline-block;

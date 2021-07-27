@@ -41,7 +41,7 @@
     </header>
 
     <!-- START BOOTSTRAP -->
-    <div class="container-fluid bg-acquagreen text-white text-center">
+    <div class="container-fluid bg-acquagreen py-3 text-white text-center">
         <div class="row">
             <div class="col-12">
                 <img class="header-avatar" src="img/avatar.svg" alt="immagine utenza">
@@ -65,7 +65,7 @@
     </div>
 
     <!-- PORTFOLIO -->
-    <div class="container-md py-5">
+    <div class="container-md py-3">
         <div class="row text-center mb-3">
             <div class="col-12">
                 <h1>Portfolio</h1>
@@ -106,7 +106,7 @@
     <!-- ABOUT -->
     <div class="bg-acquagreen">
 
-        <div class="container py-5 text-white">
+        <div class="container py-3 text-white">
             <!-- Row for the heading of About-->
             <div class="row text-center">
                 <div class="col-12">
@@ -177,11 +177,27 @@
         <!-- Rows for the contact information -->
         <div class="row justify-content-center">
             <div class="col-8 text-start mb-2">
+                
+                <form>
+                    <ul class="list-group mb-2">
+                        <li class="mb-1">
+                            <input type="text" placeholder="Name" class="form-control border-0 border-bottom" id="insert_name">                     
+                        </li>
+                        <li class="mb-1">
+                            <input type="text" placeholder="Email Address" class="form-control border-0 border-bottom" id="insert_email">                     
+                        </li>
+                        <li class="mb-1">
+                            <input type="text" placeholder="Phone Number" class="form-control border-0 border-bottom" id="insert_phone">                     
+                        </li>
+                        <li class="mb-1">
+                            <textarea placeholder="Message" class="form-control border-0 border-bottom" style="width:100%; max-height:200px;"></textarea>
+                        </li>
+                    </ul>
+                    <button class="btn btn-acquagreen text-white" type="button">Button</button>
+                
+                </form>
 
-                <!-- Utilizzare un form per l'inserimento,
-                con input a labels, inoltre textarea per l'inserimento.
-                Per i bottoni utilizzare i btn di bootstrap. -->
-                <ul class="list-group">
+                <!-- <ul class="list-group">
                     <li class="border-bottom mb-1">
                         <p>Name</p>
                     </li>
@@ -191,42 +207,13 @@
                     <li class="border-bottom mb-1">
                         <p>Phone Number</p>
                     </li>
-                    <li class="border-bottom mb-1">
-                        <p>Message</p>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <li>
+                        <textarea placeholder="Message" class="border-0 border-bottom" style="width:100%; max-height:200px;"></textarea>
                     </li>
                 </ul>
+                <button class="btn btn-acquagreen text-white" type="button">Button</button> -->
             </div>
         </div>
-        
-        <!-- <div class="row">
-            <div class="col-8 px-0 offset-2 border-bottom text-start mb-1">
-                <p>Name</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-8 offset-2 border-bottom text-start mb-1">
-                <p>Email Addres</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-8 offset-2 border-bottom text-start mb-1">
-                <p>Phone Number</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-8 offset-2 border-bottom text-start mb-2">
-                <p>Message</p>
-            </div>
-        </div> -->
-
-        <!-- Row for the send button -->
-        <div class="row">
-            <div class="col-8 offset-2 text-start">
-                <button class="btn btn-acquagreen text-white" type="button">Button</button>
-            </div>
-        </div>
-
         
     </div>
 

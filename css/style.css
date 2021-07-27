@@ -42,16 +42,16 @@ header a {
 .btn-outline {
     border: 1px solid;
 }
-
-
-/* 
 .star-line {
-    vertical-align: middle;
-    display: inline-block;
+    /* vertical-align: middle;
+    display: inline-block; */
     width: 100px;
     height: 4px;
     border-radius: 15px;
 }
+
+
+/* 
 .show-card {
     height:200px;
     border-radius: 10px;

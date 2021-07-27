@@ -4,12 +4,6 @@ ul{
 h1,h2,h3 {
     text-transform: uppercase;
 }
-.bg-white {
-    background-color: white;
-}
-.bg-black {
-    background-color: black;
-}
 .bg-acquagreen {
     background-color: rgb(26, 188, 156);
 }
@@ -25,13 +19,13 @@ h1,h2,h3 {
 .text-acquagreen {
     color: rgb(26, 188, 156);
 }
-.text-white {
-    color: white;
-}
 
+.header-avatar {
+    width: 200px;
+}
 .star-line {
-    vertical-align: middle;
-    display: inline-block;
+    /* vertical-align: middle;
+    display: inline-block; */
     width: 100px;
     height: 4px;
     border-radius: 15px;

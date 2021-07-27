@@ -1,7 +1,8 @@
 ul{
     list-style:none;
 }
-h1,h2,h3 {
+h1,h2,h3,
+header a {
     text-transform: uppercase;
 }
 .bg-acquagreen {
@@ -15,20 +16,11 @@ h1,h2,h3 {
 .bg-greybluedark {
     background-color: rgb(44, 62, 80);
 }
-
 .text-acquagreen {
     color: rgb(26, 188, 156);
 }
-
 .header-avatar {
     width: 200px;
-}
-.star-line {
-    /* vertical-align: middle;
-    display: inline-block; */
-    width: 100px;
-    height: 4px;
-    border-radius: 15px;
 }
 .fa-star {
     font-size: 2rem;
@@ -40,23 +32,34 @@ h1,h2,h3 {
     border: 1px solid white;
     border-radius: 50%;
 }
-.button {
-    padding: 5px 20px;
-    border: 1px solid white;
-    border-radius: 5px;
+.img-fluid {
+    border-radius: .8rem;
+}
+.btn-acquagreen {
+    background-color: rgb(26, 188, 156);
+    border-color: rgb(26, 188, 156);
+}
+.btn-outline {
+    border: 1px solid;
 }
 
+
+/* 
+.star-line {
+    vertical-align: middle;
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    border-radius: 15px;
+}
 .show-card {
     height:200px;
     border-radius: 10px;
     background-color: rgb(186, 75, 99);
 }
-
 .show-card img {
     width: 150px;
     height: 150px;
 }
+*/
 
-header a {
-    text-transform: uppercase;
-}

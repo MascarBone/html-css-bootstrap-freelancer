@@ -19,7 +19,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-greyblue">
             <div class="container-md">
-                <a href="#" class="navbar-brand">Start Bootstrap</a>
+                <a href="#" id="bar" class="navbar-brand">Start Bootstrap</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -46,7 +46,7 @@
             <div class="col-12">
                 <img class="header-avatar" src="img/avatar.svg" alt="immagine utenza">
             </div>
-            <h1>Start Bootstrap</h1>
+            <h1 id="textStart">Start Bootstrap</h1>
             <!-- CREATION OF THE STAR WITH TWO LINES -->
 
             <!-- First try, with .star-line using display:inline-block
@@ -83,7 +83,7 @@
             <!-- Rapresentative images -->
             <div class="row gx-3 gy-3">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <img class="img-fluid" src="img/cabin.png" alt="Example image">
+                    <img id="photo" class="img-fluid" src="img/cabin.png" alt="Example image">
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <img class="img-fluid" src="img/cake.png" alt="Example image">
@@ -111,7 +111,7 @@
             <!-- Row for the heading of About-->
             <div class="row text-center">
                 <div class="col-12">
-                    <h1>About</h1>         
+                    <h1 id="textAbout">About</h1>         
 
                     <!-- CREATION OF THE STAR WITH TWO LINES -->
                     <div class="d-flex justify-content-center align-items-center">
@@ -224,18 +224,18 @@
         <div class="bg-greyblue">
             <div class="container">
                 <div class="row text-center text-white justify-content-center py-3">
-                    <div class="col-12 col-md-3 pb-3 pb-md-0">
+                    <div id="footLeft" class="col-12 col-md-3 pb-3 pb-md-0">
                         <h3>Location</h3>
                         <p>2215 John Daniel Drive Clark, MO 54243</p>
                     </div>
-                    <div class="col-12 col-md-3 pb-3 pb-md-0">
+                    <div id="footCentral" class="col-12 col-md-3 pb-3 pb-md-0">
                         <h3>Around the web</h3>
                         <i class="fab fa-facebook-f"></i>
                         <i class="fab fa-google-plus-g"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-linkedin-in"></i>
                     </div>
-                    <div class="col-12 col-md-3 pb-3 pb-md-0">
+                    <div id="footRight" class="col-12 col-md-3 pb-3 pb-md-0">
                         <h3>About freelancer</h3>
                         <p>Freelance is a free to use, open source Bootstrap theme created by <span class="text-acquagreen">Start Bootstrap</span>.</p>
                     </div>
@@ -253,5 +253,6 @@
         
     </footer>
 
+    <script type="text/javascript" src="js/myscript.js"></script>
 </body>
 </html>
